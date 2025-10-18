@@ -18,6 +18,7 @@ cd /home/ec2-user/app
 echo "===== Running npm install ====="
 npm install
 
+echo "===== Running npm build ====="
 npm run build
 
 echo "===== Dependencies installed successfully ====="
