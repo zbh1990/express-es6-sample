@@ -11,6 +11,8 @@ then
   sudo yum install -y nodejs
 fi
 
+sudo chown -R ec2-user:ec2-user /home/ec2-user/app
+
 cd /home/ec2-user/app
 
 echo "===== Running npm install ====="
