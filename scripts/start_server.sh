@@ -3,7 +3,6 @@ cd /home/ec2-user/app
 
 export PORT=8080
 
-# 杀掉旧进程（如果有）
 pkill -f "node" || true
 
 echo "Starting app on port $PORT..."
