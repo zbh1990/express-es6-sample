@@ -1,7 +1,7 @@
 #!/bin/bash
 cd /home/ec2-user/app
 
-export PORT=8080
+export PORT=3000
 
 pkill -f "node" || true
 
